@@ -26,6 +26,14 @@ nav{
 .logo img{
     width: 150px;
 }
+.name{
+    margin-left: -3%;
+}
+
+.name img{
+    width: 400px;
+    
+}
 
 .nav-links{
     flex: 1;
@@ -52,11 +60,27 @@ nav{
 }
 
 #circle{
-    width: 1000px;
-    height: 1000px;
+    width: 900px;
+    height: 900px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 20px;
+    left: 150px;
     border-radius: 50%;
     background: #ccc;
+}
+
+
+.feature{
+    position: absolute;
+}
+.one{
+    width: 900px;
+    top: 150px;
+    left: 20px;
+}
+.two{
+    width: 1000px;
+    height: 1000px;
+    top: 450px;
+    left:320px;
 }
