@@ -80,3 +80,27 @@ nav a::before{
 nav a:hover::before{
     width: 100%;
 }
+
+#about-text{
+    padding-top: 20PX;
+    padding-left: 20px;
+    padding-bottom: 10PX;
+    text-align: left;
+    color: floralwhite;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#cv-download{
+    padding-left: 180PX;
+    text-align: left;
+    color: floralwhite;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#anim{
+    position: absolute;
+    left: 650px;
+    top: 270px;
+}
