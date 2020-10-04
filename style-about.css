@@ -100,7 +100,10 @@ nav a:hover::before{
 }
 
 #anim{
+   
+    display: block;
     position: absolute;
     left: 650px;
-    top: 270px;
+    top: 300px;
+    
 }
