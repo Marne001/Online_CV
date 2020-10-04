@@ -1,9 +1,16 @@
-body{
+*{
     margin: 0;
     padding: 0;
-    background: #222;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 400;
+}
+
+html{
+    background-image: url(images/bg-about.jpg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container{
@@ -73,31 +80,3 @@ nav a::before{
 nav a:hover::before{
     width: 100%;
 }
-
-#self-img{
-    float: right;
-    
-}
-
-#text{
-    text-align: center;
-    color: floralwhite;
-    font-size: 44px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-#text2{
-    text-align: center;
-    color: floralwhite;
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-#anim{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 48%;
-}
-
-
