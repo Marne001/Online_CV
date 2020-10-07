@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
 
+
+
 class Landing extends Component{
     render(){
         return(
@@ -8,7 +10,7 @@ class Landing extends Component{
                 <Grid className='landing-grid'>
                     <Cell col={12}>
                         <img
-                            src="https://cdn0.iconfinder.com/data/icons/social-media-network-4/48/male_avatar-512.png"
+                            src="/display-p.png"
                             alt="avatar"
                             className="avatar-img"
                         />
@@ -22,27 +24,27 @@ class Landing extends Component{
 
                         <div className="social-links">
                             {/* LinkedIn*/}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://www.linkedin.com/in/marn%C3%A9-van-zyl-893b731b7/" rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-linkedin fa-lg"  aria-hidden="true"/>
                             </a>
 
                             {/* GitHub*/}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://github.com/Marne001" rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-github fa-lg"  aria-hidden="true"/>
                             </a>
 
                             {/* Instagram*/}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://www.instagram.com/marne000/" rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-instagram fa-lg"  aria-hidden="true"/>
                             </a>
 
                             {/* Facebook*/}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://www.facebook.com/profile.php?id=100008191291650&sk=friends" rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-facebook fa-lg"  aria-hidden="true"/>
                             </a>
 
                             {/* Twitter*/}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://twitter.com/vanzyl_marne" rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-twitter fa-lg"  aria-hidden="true"/>
                             </a>
 
@@ -51,8 +53,16 @@ class Landing extends Component{
                         </div>
                     </Cell>
                 </Grid>
+
+                
+
             </div>
+
+            
+                
+            
         )
+
     }
 }
 
