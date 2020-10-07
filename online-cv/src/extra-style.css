@@ -2,11 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 body{
     font-family: 'Courier New', Courier, monospace;
-    background-color: #222;
+    background-image: url("/weatherbg.jpeg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    position: fixed;
 }
 
 
@@ -17,12 +22,13 @@ main{
 
 .banner-weather{
 
-    background-image: url("/weather.PNG");
+    
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;
     position: fixed;
-    background-color: black;
+    background-color: #222;
+    opacity: 0.9;
     width: 40%;
     margin: auto;
     border-radius: 10px;
@@ -111,3 +117,14 @@ main{
       font-weight: 700;
       text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
   }
+
+
+.Column1{
+    float: left;
+    width: 50%;
+}
+
+.Column2{
+    float: right;
+    width: 50%;
+}

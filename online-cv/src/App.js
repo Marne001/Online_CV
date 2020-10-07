@@ -18,6 +18,7 @@ function App() {
                 <Link to="/skills">Skills</Link>
                 <Link to="/contact">Contact</Link>
                 <Link to="/extra">Extra</Link>
+                <Link to="/news">News</Link>
             </Navigation>
         </Header>
         <Drawer title="Title">
@@ -27,6 +28,7 @@ function App() {
                 <Link to="/skills">Skills</Link>
                 <Link to="/contact">Contact</Link>
                 <Link to="/extra">Extra</Link>
+                <Link to="/news">News</Link>
             </Navigation>
         </Drawer>
         <Content>

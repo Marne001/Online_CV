@@ -34,7 +34,7 @@ export default function ContactUs() {
                             <textarea type="text" className="form-control" id="" cols="30" rows="8" placeholder="Your Message" name="message"></textarea>
                       </div>
                       <div className="col-8 pt-3 mx-auto">
-                            <input type="submit" className="btn btn-info" value="Send Message"></input>
+                            <input type="submit" className="btn btn-info" value="Send Email"></input>
                       </div>
                   </div>
               </form>

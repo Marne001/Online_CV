@@ -6,6 +6,7 @@ import About from './about';
 import Contact from './contact'
 import Skills from './skills'
 import Extra from './extra'
+import News from './news'
 
 const Main = () => (
     <Switch>
@@ -14,6 +15,7 @@ const Main = () => (
         <Route path="/skills" component={Skills}/>
         <Route path="/contact" component={Contact}/>
         <Route path="/extra" component={Extra}/>
+        <Route path="/news" component={News}/>
     </Switch>
 )
 
