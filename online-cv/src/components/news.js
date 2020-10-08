@@ -14,9 +14,13 @@ class News extends Component{
     }
 
     componentDidMount() {
-        fetch(API)
+        var proxyUrl = 'https://cors-anywhere.herokuapp.com/'
+        fetch(proxyUrl + API)
         .then(response => response.json())
-        .then(data => this.setState({articles: data.articles}));
+        .then(data => {
+            this.setState({articles: data.articles})
+            document.querySelector("pre").innerHTML = JSON.stringify(data, null, 2); 
+        });
     }
 
     
