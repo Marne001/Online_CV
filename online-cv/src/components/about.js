@@ -21,7 +21,7 @@ class About extends Component{
                         <p>Hi  I Am Marné van Zyl, I'm Currently an IT-Student Studying At NWU Potchefstroom Campus. Ever Since I was small, I had a big liking
                             in computers and technology. My dream is to make a difference in the world by using technology and slowly but steadely I am working on that dream.
 
-                            <a href="/CV.txt" download>
+                            <a href="/CV.pdf" download>
                             Download CV:    
                             </a>
                         </p>
